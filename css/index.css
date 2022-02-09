@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
 @import url("https://azure-ui.netlify.app/main.css");
+@import url("reset.css");
 
 .p1-hd {
   padding: 2rem 8rem;
