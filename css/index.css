@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
-@import url("../css/header.css");
 @import url("https://azure-ui.netlify.app/main.css");
 
 .p1-hd {
@@ -23,6 +22,7 @@
 
 .search-inp {
   padding: 0.5rem 1rem;
+  width: 50rem;
   border-radius: 50px;
   border: 1px solid gray;
   outline: none;
@@ -30,8 +30,8 @@
 }
 
 .fl-btn {
-    background-color: var(--primary-light)  !important;
-    color: var(--primary-dark) !important;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
     font-size: 1rem;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
@@ -39,7 +39,7 @@
 }
 
 .fa-plus{
-    color: var(--primary-dark) !important;
+    color: var(--primary-dark);
 
 }
 
