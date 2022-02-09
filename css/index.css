@@ -2,16 +2,17 @@
 @import url("https://azure-ui.netlify.app/main.css");
 @import url("reset.css");
 
+
 .p1-hd {
   padding: 2rem 8rem;
   font-family: "Quicksand", sans-serif;
 }
 
-.quiz-opt{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 8rem;
+.quiz-opt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 8rem;
 }
 
 .quiz-srch-fld {
@@ -31,28 +32,27 @@
 }
 
 .fl-btn {
-    background-color: var(--primary-light);
-    color: var(--primary-dark);
-    font-size: 1rem;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 600;
-    margin-left: 0.5rem;
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  margin-left: 0.5rem;
 }
 
-.fa-plus{
-    color: var(--primary-dark);
-
+.fa-plus {
+  color: var(--primary-dark);
 }
 
-.card-title{
+.card-title {
   margin: 1rem 0;
 }
 
-.card-body{
+.card-body {
   margin: 1rem 0;
 }
 
-.quiz-card-container{
+.quiz-card-container {
   padding: 0 8rem;
   display: flex;
   gap: 1rem;

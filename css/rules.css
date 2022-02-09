@@ -1,0 +1,37 @@
+
+.p2-hd{
+    margin-bottom: 1rem;
+}
+.rules-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.rules{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.img-container{
+    height: 15rem;
+    width: 20rem;
+    background-color: #f0f8ff;
+}
+.card-body{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--primary-dark);
+}
+
+@media screen and (max-width: 670px) {
+    .p1-hd{
+        padding: 1rem;
+    }
+    .p2-hd{
+        padding: 0;
+    }
+    .rules-container{
+        flex-wrap: wrap;
+    }
+    
+}
