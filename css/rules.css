@@ -23,6 +23,13 @@
     color: var(--primary-dark);
 }
 
+.basic-btn{
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: "Quicksand", sans-serif;
+    padding: 1rem 1.5rem;
+}
+
 @media screen and (max-width: 670px) {
     .p1-hd{
         padding: 1rem;
