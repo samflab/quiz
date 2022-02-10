@@ -1,0 +1,33 @@
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+#question {
+  margin-bottom: 1rem;
+}
+
+input[type="radio"] {
+  margin: 1rem 0;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+#submit {
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 50px;
+  background-color: var(--primary-dark);
+  color: var(--font);
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+}
