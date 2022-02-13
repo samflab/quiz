@@ -1,0 +1,25 @@
+.option{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.wrong{
+    background-color: var(--red-50);
+    text-decoration: line-through;
+}
+
+.correct{
+    background-color: var(--green-50); 
+}
+
+.result{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 1rem;
+    background-color: var(--primary-dark);
+    border-radius: 5px;
+    color: var(--font);
+    padding: 1rem 0;
+}
